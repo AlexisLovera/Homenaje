@@ -1,0 +1,118 @@
+html {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  font-family: Roboto, Sans-Serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://images.squarespace-cdn.com/content/v1/55c7a3e2e4b0fa365689d8aa/1630396141146-NQ1AJSOW8G37JKA19S3N/argentina.jpg?format=1500w");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  text-align: center;
+  width: 100%;
+}
+
+.background {
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 0 24vw;
+  padding: 0;
+}
+
+@media (max-width: 1600px) {
+  .background {
+    margin: 0 18vw;
+  }
+}
+
+@media (max-width:800px) {
+  .background {
+    margin: 0 10vw;
+  }
+}
+
+h1 {
+  font-size: 45px;
+  margin: 0;
+  padding: 40px 20px 20px 20px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 1.4rem;
+  padding: 20px;
+  margin: 0;
+}
+
+#h2 {
+  padding: 50px 0 20px 0;
+}
+
+p {
+  padding: 10px;
+}
+
+.bold {  
+  font-size: 18px;
+  margin: 3px 0 10px 0;
+}
+
+.homenaje {
+  font-style: italic;  
+}
+
+section {
+  margin: 0 10%;
+}
+
+#img-div {
+  margin: 0 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+#image {
+  display: block;
+  max-width: 100%;
+  filter: blur(0.5px) saturate(0);
+  border: 5px solid rgba(255, 255, 255, 0.3);
+  height: auto;
+}
+
+figcaption {
+  padding-top: 3px;
+}
+
+.compresor {
+ margin: 50px 20%;
+ overflow: visible;
+}  
+
+.container {
+  text-align: left;
+}
+
+a {
+  color: inherit;
+  font-style: italic;
+}
+
+a:hover {
+  color: #3d94ff;
+}
+
+.lista > li{ 
+  padding: 0 0 15px 0;
+  margin: 0;
+  width: 100%;
+  line-height: 1.3;
+}
